@@ -38,7 +38,7 @@ First, we need to talk about how to start the library. For that, you have to cal
 Once you peek inside that function, you'll inmediately see that it needs quite a lot of scores for something so trivial, that is because this library works with multiple ID systems:
 - (Player) Permanent ids
 - (Entity) Permanent ids
-> The permanent ids should be assigned once the entity/player joins the world, also, players SHOULD NOT have an entityID and entities SHOULD NOT have a playerID.
+> The permanent ids should be assigned once the entity/player joins the world, also, players SHOULD NOT have an entityID and entities SHOULD NOT have a playerID, in this case, only the player ids can be recycled from outside.
 - (Player) Session ids
 > Session ids are a bit different from what usual maps use, this are meant to be the usual "player 1, player 2..." indicators usually found on local play, and their purpose is to tell what spot to occupy for the players. This was a strange decision to make because usually, players get their position based on what places are occupied, but here, ensuring their spot is always free means that they can get there faster, which makes the menus lighter on big playercounts while also being able to work well on singleplayer.
 - (Entity) Owner ids
