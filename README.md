@@ -76,6 +76,7 @@ DATA covers 3 aspects of the menu stages:
 > - **d**own
 > - **l**eft
 > - **r**ight
+> 
 > Each of them calling their corresponding advancement, to change this or their initials, check ```lmenu:stage_changed``` (fixed) and ```lmenu:on_spot/stage_changed``` (on-spot)
 - Function to run AFTER starting stage
 > This is the function name that the stage calls after setting the data on the displays, by default it completes `$function $(function)`, but it can be changed inside ```lmenu:do_nested_function``` to complete whatever command you may want (to set it to all commands, just leave it like `$$(function)`)
