@@ -82,7 +82,7 @@ DATA covers 3 aspects of the menu stages:
 
 > [!TIP]
 > To add your data to the database, put your data function inside the `#lmenu:reload_menus` tag and it will be reloaded on `/reload`!
-### Example and further help
+## Example and further help
 There are 2 folders on this repository, one for the library and another one that contains an example of a menu, if you read carefully this wall of text you should be ready to install it in a superflat and test how everything works!
 If you find yourself unable to make this work, fell free to message me on discord with your issue ***@leinad677yt***, I'll try to help if I have the time 
 
