@@ -21,7 +21,7 @@
 ## TELLRAW
     tellraw @s [{translate:"leinad.menu.tellraw.uninstall",fallback:"lmenu has been uninnstalled"}]
 ##
-## ADD SCOREBOARDS
+## REMOVE SCOREBOARDS
     scoreboard objectives remove lmenu.temp_condition
 
     scoreboard objectives remove lmenu.session_id
@@ -35,4 +35,7 @@
 
     scoreboard objectives remove lmenu.stage_secondary
     scoreboard objectives remove lmenu.can_use_menu
+##
+## REMOVE THE LOADED TAG
+    data remove storage leinad_temp:menu loaded
 ##
