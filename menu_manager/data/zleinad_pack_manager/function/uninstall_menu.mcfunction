@@ -37,5 +37,5 @@
     scoreboard objectives remove lmenu.can_use_menu
 ##
 ## REMOVE THE LOADED TAG
-    data remove storage leinad_temp:menu loaded
+    data remove storage leinad_temp:menu
 ##
