@@ -85,11 +85,11 @@ Specific stage data goes inside a storage where every stage has the following pa
 The data itself, should have the following structure:
 ```
 {
-    t_$(trigger1): {        // TRIGGER REDIRECTS
+    t_$(trigger1): {        // TRIGGER REDIRECTS (executes l.user:menu/change_stage directly)
         main: int,
         secondary: int
     },
-    t_$(trigger2): {        // TRIGGER EXECUTES
+    t_$(trigger2): {        // TRIGGER EXECUTES (in the form of `$function $(function)`)
         function: string
     },
     t_$(trigger3): {        // TRIGGER REDIRECTS AND EXECUTES
