@@ -37,8 +37,9 @@ Thus, making it more immersive in some scenarios.
         > Works on `minecraft:item_display`, `minecraft:text_display` and `minecraft:block_display`. If one display contains this tag, valid menu interactions will merge the data from the stage database directly into it. `$(initial)` is the initial of the entity type of the display.
         > 
         > The data, depending on the `type` of the entity is stored inside `d_i$(id)`, `d_t$(id)` or `d_b$(id)`. Depending on the initial letter of the type.
-        >> [!TIP]
-        >> This kind of IDs don't need to be different, you can recycle them form one menu to another to be able to switch between them as you desire.
+        
+> [!TIP]  
+> This kind of IDs don't need to be different, you can recycle them form one menu to another to be able to switch between them as you desire.
 - **function**
     - `l.user:menu/interact`
         > Executed `as` and `at` the player that you want to interact with the menu _with_ `$(main)`, `$(secondary)` and `$(triggerID)`(including prefix).  
